@@ -39,4 +39,8 @@ elif drink_choice == "no":
 subtotal = food_price + drink_price
 print(f"Subtotal: ${subtotal:.2f}")
     
-    
+tax = subtotal * .08
+print(f"Tax (8%): ${tax:.2f}")
+
+total = subtotal + tax
+print(f"Total: ${total:.2f}")
