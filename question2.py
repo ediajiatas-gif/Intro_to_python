@@ -18,7 +18,7 @@ if choice == 1:
     
 elif choice == 2:
     food_price = burger
-    print(f"Burger - ${burger}")
+    print(f"Burger - ${burger:.2f}")
     
 elif choice == 3:
     food_price = salad
@@ -30,7 +30,7 @@ elif choice == 4:
     
 if drink_choice == "yes":
     drink_price = yes_drink
-    print(f"Drink: Yes - ${yes_drink}")
+    print(f"Drink: Yes - ${yes_drink:.2f}")
 
 elif drink_choice == "no":
     drink_price = no_drink
